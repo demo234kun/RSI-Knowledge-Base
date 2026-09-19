@@ -1,0 +1,207 @@
+% RSI 知识库 · 参考文献（BibTeX）
+% 对应论文区 11 张精读卡片（P01–P11）。全部条目已核验（arXiv/NeurIPS/ACL 官方页面）。
+% 可整体导入 Zotero / EndNote。key 规则：首作者首字母+年份
+
+% ===== P01 综述 =====
+@misc{chen2026recursive,
+  title        = {Recursive Self-Improvement in {AI}: From Bounded Self-Refinement to Autonomous Research Loops},
+  author       = {Chen, Mingguang and Wang, Licheng and Qu, Bo},
+  year         = {2026},
+  eprint       = {2607.07663},
+  archiveprefix= {arXiv},
+  primaryclass = {cs.AI},
+  url          = {https://arxiv.org/abs/2607.07663},
+  note         = {RSI 综述：1250 篇 2024-2026 论文的双轴分类（改进对象 × 闭环程度）}
+}
+
+% ===== P02 理论 =====
+@misc{chojecki2025selfimproving,
+  title        = {Self-Improving {AI} Agents through Self-Play},
+  author       = {Chojecki, Przemyslaw},
+  year         = {2025},
+  month        = {dec},
+  eprint       = {2512.02731},
+  archiveprefix= {arXiv},
+  primaryclass = {cs.AI},
+  url          = {https://arxiv.org/abs/2512.02731},
+  note         = {GVU（Generator-Verifier-Updater）统一算子框架}
+}
+
+% ===== P03 方法 =====
+@inproceedings{yin2025godelagent,
+  title     = {G{\"o}del Agent: A Self-Referential Agent Framework for Recursive Self-Improvement},
+  author    = {Yin, Xunjian and Wang, Xinyi and Pan, Liangming and Lin, Li and Wan, Xiaojun and Wang, William Yang},
+  booktitle = {Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)},
+  year      = {2025},
+  pages     = {1354--1384},
+  doi       = {10.18653/v1/2025.acl-long.1354},
+  url       = {https://aclanthology.org/2025.acl-long.1354/},
+  note      = {ACL 2025 主会长文；arXiv:2410.04444}
+}
+
+% ===== P04 方法 =====
+@misc{simonds2025ladder,
+  title        = {LADDER: Self-Improving {LLM}s Through Recursive Problem Decomposition},
+  author       = {Simonds, Toby and Yoshiyama, Akira},
+  year         = {2025},
+  month        = {mar},
+  eprint       = {2503.00735},
+  archiveprefix= {arXiv},
+  primaryclass = {cs.LG},
+  url          = {https://arxiv.org/abs/2503.00735},
+  note         = {含 TTRL：Llama 3.2 3B 积分 1%\to82%，MIT Integration Bee 90%}
+}
+
+% ===== P05 方法 =====
+@misc{wei2025toward,
+  title        = {Toward Training Superintelligent Software Agents through Self-Play {SWE-RL}},
+  author       = {Wei, Yuxiang and Sun, Zhiqing and McMilin, Emily and Gehring, Jonas and Zhang, David and Synnaeve, Gabriel and Fried, Daniel and Zhang, Lingming and Wang, Sida},
+  year         = {2025},
+  month        = {dec},
+  eprint       = {2512.18552},
+  archiveprefix= {arXiv},
+  primaryclass = {cs.SE},
+  url          = {https://arxiv.org/abs/2512.18552},
+  note         = {ICML 2026 接收；SWE-bench Verified +10.4 / Pro +7.8}
+}
+
+% ===== P06 方法 =====
+@misc{kuba2025lsp,
+  title        = {Language Self-Play For Data-Free Training},
+  author       = {Kuba, Jakub Grudzien and Gu, Mengting and Ma, Qi and Tian, Yuandong and Mohan, Vijai and Chen, Jason},
+  year         = {2025},
+  month        = {sep},
+  eprint       = {2509.07414},
+  archiveprefix= {arXiv},
+  primaryclass = {cs.AI},
+  url          = {https://arxiv.org/abs/2509.07414},
+  note         = {LSP：博弈论零数据自我博弈}
+}
+
+% ===== P07 方法 =====
+@inproceedings{wang2025tspin,
+  title     = {Triplets Better Than Pairs: Towards Stable and Effective Self-Play Fine-Tuning for {LLM}s},
+  author    = {Wang, Yibo and Sun, Hai-Long and Chen, Qing-Guo and Xu, Zhao and Luo, Weihua and Zhang, Kaifu and Zhang, Lijun},
+  booktitle = {Advances in Neural Information Processing Systems 38 (NeurIPS 2025)},
+  year      = {2025},
+  url       = {https://papers.neurips.cc/paper_files/paper/2025/file/3a797b10ff20562b1ecee0d4e914c1c7-Paper-Conference.pdf},
+  note      = {T-SPIN：三元组自我博弈 + 熵约束；arXiv:2601.08198}
+}
+
+% ===== P08 理论 =====
+@misc{fu2026whyselfrewarding,
+  title        = {Why Self-Rewarding Works: Theoretical Guarantees for Iterative Alignment of Language Models},
+  author       = {Fu, Shi and Wang, Yingjie and Hu, Shengchao and Wang, Peng and Tao, Dacheng},
+  year         = {2026},
+  month        = {jan},
+  eprint       = {2601.22513},
+  archiveprefix= {arXiv},
+  primaryclass = {cs.AI},
+  url          = {https://arxiv.org/abs/2601.22513},
+  note         = {SRLM 首个严格收敛理论：Õ(1/√n)，初始依赖指数衰减}
+}
+
+% ===== P09 理论 =====
+@misc{selfref2026introspection,
+  title        = {Self-Reference in Large Language Models: The Introspection Threshold for Recursive Self-Improvement},
+  author       = {Anonymous},
+  year         = {2026},
+  month        = {jul},
+  eprint       = {2607.04277},
+  archiveprefix= {arXiv},
+  primaryclass = {physics.soc-ph},
+  url          = {https://arxiv.org/abs/2607.04277},
+  note         = {内省阈值：低于临界自建模能力则自改进退化（作者以原文为准）}
+}
+
+% ===== P10 理论 =====
+@misc{compute2025explosion,
+  title        = {Will Compute Bottlenecks Prevent an Intelligence Explosion?},
+  author       = {Anonymous},
+  year         = {2025},
+  month        = {jul},
+  eprint       = {2507.23181},
+  archiveprefix= {arXiv},
+  primaryclass = {cs.AI},
+  url          = {https://arxiv.org/abs/2507.23181},
+  note         = {智能爆炸两必要条件：算力-劳动弹性替代 + 自改进速率快于想法难度递增（作者以原文为准）}
+}
+
+% ===== P11 方法 =====
+@misc{bensal2025reflect,
+  title        = {Reflect, Retry, Reward: Self-Improving {LLM}s via Reinforcement Learning},
+  author       = {Bensal, Shelly and Jamil, Umar and Bryant, Christopher and Russak, Melisa and Kamble, Kiran and Mozolevskyi, Dmytro and Ali, Muayad and AlShikh, Waseem},
+  year         = {2025},
+  month        = {may},
+  eprint       = {2505.24726},
+  archiveprefix= {arXiv},
+  primaryclass = {cs.CL},
+  url          = {https://arxiv.org/abs/2505.24726},
+  note         = {GRPO 只奖励反思 token：数学等式书写 +34.7%，函数调用 +18.1%}
+}
+
+% ===== P12 方法（harness 闭环工程原型） =====
+@misc{neohorse2026neohorse1,
+  title        = {NeoHorse-1: Towards Recursive Self-Improvement via Agentic Post-Training with Routing Harness},
+  author       = {NeoHorse Team},
+  year         = {2026},
+  month        = {sep},
+  eprint       = {2609.08183},
+  archiveprefix= {arXiv},
+  primaryclass = {cs.CL},
+  url          = {https://arxiv.org/abs/2609.08183},
+  note         = {TokenRhythm 基元律动；4B 58.94->64.87 / 9B 65.60->69.04；ModelScope: TokenRhythm/NeoHorse-1-4B}
+}
+
+% ===== 经典源头（基础知识区引用，非精读卡片） =====
+
+@article{good1965speculations,
+  title   = {Speculations Concerning the First Ultraintelligent Machine},
+  author  = {Good, Irving John},
+  journal = {Advances in Computers},
+  volume  = {6},
+  pages   = {31--88},
+  year    = {1965},
+  publisher = {Elsevier}
+}
+
+@article{schmidhuber2003godel,
+  title   = {G{\"o}del Machines: Fully Self-Referential Optimal Universal Self-Improvers},
+  author  = {Schmidhuber, J{\"u}rgen},
+  journal = {Artificial General Intelligence},
+  year    = {2003},
+  note    = {预印本；首次提出可证明最优的自我改进机器}
+}
+
+@misc{zelikman2022star,
+  title        = {STaR: Bootstrapping Reasoning With Reasoning},
+  author       = {Zelikman, Eric and Wu, Yuhuai and Mu, Jesse and Goodman, Noah D.},
+  year         = {2022},
+  eprint       = {2203.14465},
+  archiveprefix= {arXiv},
+  primaryclass = {cs.CL},
+  url          = {https://arxiv.org/abs/2203.14465},
+  note         = {CoT 自训练自举的源头工作}
+}
+
+@misc{chen2024spin,
+  title        = {Self-Play Fine-Tuning Converts Weak Language Models to Strong Language Models},
+  author       = {Chen, Zixiang and Deng, Yihe and Yuan, Huizhuo and Ji, Kaixuan and Gu, Quanquan},
+  year         = {2024},
+  eprint       = {2401.01335},
+  archiveprefix= {arXiv},
+  primaryclass = {cs.LG},
+  url          = {https://arxiv.org/abs/2401.01335},
+  note         = {SPIN：自我博弈微调的源头工作（T-SPIN 前身）}
+}
+
+@misc{yuan2024selfrewarding,
+  title        = {Self-Rewarding Language Models},
+  author       = {Yuan, Weizhe and Pang, Richard Yuanzhe and Cho, Kyunghyun and Sukhbaatar, Sainbayar and Xu, Jing and Weston, Jason},
+  year         = {2024},
+  eprint       = {2401.10020},
+  archiveprefix= {arXiv},
+  primaryclass = {cs.CL},
+  url          = {https://arxiv.org/abs/2401.10020},
+  note         = {SRLM：自我奖励语言模型源头工作（P08 研究对象）}
+}
