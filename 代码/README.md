@@ -20,7 +20,7 @@
 | jennyzzt/dgm | 2.3k | 2025-05 | Python | Darwin Gödel Machine：开放式演化自改进智能体 | [01](01_自参考与自修改框架.md) |
 | zhengkid/Dream-RSI | 846 | 2026-09 | Python | Dream-RSI：演化世界中的递归自改进 | [02](02_自进化智能体.md) |
 | FrontisAI/OpenRSI | 719 | 2026-07 | Python | 可执行/可测量/可复现的 AI4AI（OpenMLE、Frontis-MA1） | [03](03_基础设施安全与资源.md) |
-| TokenRhythm/NeoHorse | 625 | 2026-09 | Python | NeoHorse-1：路由 harness 的智能体后训练 RSI（arXiv:2609.08183，[P12](../论文/cards/P12_NeoHorse1_2609.08183.md)；模型：[ModelScope](https://www.modelscope.cn/models/TokenRhythm/NeoHorse-1-4B)） | [02](02_自进化智能体.md) |
+| TokenRhythm/NeoHorse | 731 | 2026-09 | Python | NeoHorse-1：路由 harness 的智能体后训练 RSI（arXiv:2609.08183，[P12](../论文/cards/P12_NeoHorse1_2609.08183.md)；模型：[ModelScope](https://www.modelscope.cn/models/TokenRhythm/NeoHorse-1-4B)）→ [复刻与解析](04_NeoHorse1_复刻与解析.md) | [02](02_自进化智能体.md) |
 | HITsz-TMG/KnowAct | 485 | 2026-07 | Python | RSI 个人助理 | [02](02_自进化智能体.md) |
 | selfimproving-agent/Awesome-Self-Improving-Agents | 493 | 2025-12 | TeX | 基础模型智能体自改进论文清单（Nick/ThingumaJig 等学术路线） | [03](03_基础设施安全与资源.md) |
 | AetherLabsAI/RSIAgent | 349 | 2026-09 | Python | 免训练多智能体 RSI：广-深自主探索 + 可复用记忆 | [02](02_自进化智能体.md) |
@@ -39,6 +39,7 @@
 - **想研究安全风险** → `ShaoShuai0605/Misevolution` + `lihouwenbin/ai-redteam-recursive-self-improvement`
 - **想找全量论文/项目地图** → `lobehub/awesome-rsi`（270★ 维护活跃）
 - **想做可复现 AI4AI 研究** → `FrontisAI/OpenRSI`
+- **想复刻 NeoHorse-1 闭环（最小成本）** → [04_NeoHorse1_复刻与解析.md](04_NeoHorse1_复刻与解析.md)（含 ModelScope 官方文章解析 + 部署/轨迹管线/ LoRA 单轮闭环方案）
 
 ## 说明
 

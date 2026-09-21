@@ -60,7 +60,7 @@
 | sentrux/sentrux | 3.3k | 2026-03 | 代码质量闭环的实时架构传感器（Rust） | [打开](代码/03_基础设施安全与资源.md) |
 | zhengkid/Dream-RSI | 846 | 2026-09 | 演化世界中的递归自改进 | [打开](代码/02_自进化智能体.md) |
 | FrontisAI/OpenRSI | 719 | 2026-07 | 可执行/可复现的 AI4AI（OpenMLE） | [打开](代码/02_自进化智能体.md) |
-| TokenRhythm/NeoHorse | 625 | 2026-09 | 路由 harness 的智能体后训练自改进 | [打开](代码/02_自进化智能体.md) |
+| TokenRhythm/NeoHorse | 731 | 2026-09 | 路由 harness 的智能体后训练自改进 | [打开](代码/02_自进化智能体.md) · [复刻解析](代码/04_NeoHorse1_复刻与解析.md) |
 | HITsz-TMG/KnowAct | 485 | 2026-07 | RSI 个人助理 | [打开](代码/02_自进化智能体.md) |
 | Arvid-pku/Godel_Agent | 223 | 2024-10 | Gödel Agent 官方实现 | [打开](代码/01_自参考与自修改框架.md) |
 | AetherLabsAI/RSIAgent | 349 | 2026-09 | 免训练多智能体 RSI 框架 | [打开](代码/02_自进化智能体.md) |

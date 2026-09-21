@@ -62,3 +62,5 @@ NeoHorse 的闭环结构**可直接移植到量化研究**：
 ---
 
 **相关卡片**：[P01 综述](P01_RSI综述_2607.07663.md) · [P02 GVU](P02_GVU_2512.02731.md) · [P04 LADDER](P04_LADDER_2503.00735.md) · [P09 内省阈值](P09_内省阈值_2607.04277.md) · [返回目录](../README.md)
+
+**延伸材料**：[ModelScope 官方文章《基元律动开源 NeoHorse-1》](https://modelscope.csdn.net/6aa3910b48977663a5deae0d.html)（2026-09-11，含 C0-C3 档位/六维评估/Data-RSI-Model-RSI 拆解/部署命令）· 完整解析与最小成本复刻方案见 [代码区 04](../代码/04_NeoHorse1_复刻与解析.md)
