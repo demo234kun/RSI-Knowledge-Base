@@ -55,16 +55,23 @@
 
 | 项目 | 星级 | 创建 | 定位 | 链接 |
 |---|---|---|---|---|
-| facebookresearch/HyperAgents | 2.7k | 2026-03 | 自我指涉、可优化任意可计算任务的自改进智能体 | [打开](代码/01_自参考与自修改框架.md) |
-| jennyzzt/dgm (Darwin Gödel Machine) | 2.3k | 2025-05 | 开放式演化自改进智能体 | [打开](代码/01_自参考与自修改框架.md) |
+| karpathy/autoresearch | 96.7k | 2026-03 | (1+1) 自动研究循环：外部 coding agent + git 执行 program.md 路线 | [打开](代码/02_自进化智能体.md) |
+| algorithmicsuperintelligence/openevolve | 7.4k | 2025-05 | OpenEvolve（AlphaEvolve 开源实现）：程序/科学发现演化 | [打开](代码/01_自参考与自修改框架.md) |
 | sentrux/sentrux | 3.3k | 2026-03 | 代码质量闭环的实时架构传感器（Rust） | [打开](代码/03_基础设施安全与资源.md) |
+| facebookresearch/HyperAgents | 2.7k | 2026-03 | 自我指涉、可优化任意可计算任务的自改进智能体 | [打开](代码/01_自参考与自修改框架.md) |
+| jennyzzt/dgm (Darwin Gödel Machine) | 2.3k | 2025-05 | 开放式演化自改进智能体（arXiv:2505.22954） | [打开](代码/01_自参考与自修改框架.md) |
+| Continual-Intelligence/SEAL | 1.9k | 2025-06 | SEAL 自适配语言模型：免数据集权重自修改 | [打开](代码/01_自参考与自修改框架.md) |
+| ShengranHu/ADAS | 1.6k | 2024-07 | (ICLR 2025) 元Agent 搜索自动设计智能体系统 | [打开](代码/01_自参考与自修改框架.md) |
+| SakanaAI/ShinkaEvolve | 1.4k | 2025-09 | 开放式、样本高效的程序演化 | [打开](代码/01_自参考与自修改框架.md) |
 | zhengkid/Dream-RSI | 846 | 2026-09 | 演化世界中的递归自改进 | [打开](代码/02_自进化智能体.md) |
-| FrontisAI/OpenRSI | 719 | 2026-07 | 可执行/可复现的 AI4AI（OpenMLE） | [打开](代码/02_自进化智能体.md) |
 | TokenRhythm/NeoHorse | 731 | 2026-09 | 路由 harness 的智能体后训练自改进 | [打开](代码/02_自进化智能体.md) · [复刻解析](代码/04_NeoHorse1_复刻与解析.md) |
+| FrontisAI/OpenRSI | 719 | 2026-07 | 可执行/可复现的 AI4AI（OpenMLE） | [打开](代码/02_自进化智能体.md) |
 | HITsz-TMG/KnowAct | 485 | 2026-07 | RSI 个人助理 | [打开](代码/02_自进化智能体.md) |
-| Arvid-pku/Godel_Agent | 223 | 2024-10 | Gödel Agent 官方实现 | [打开](代码/01_自参考与自修改框架.md) |
+| MaximeRobeyns/self_improving_coding_agent | 401 | 2025-04 | SICA：自改进 coding agent（工作在自己的代码库上） | [打开](代码/01_自参考与自修改框架.md) |
 | AetherLabsAI/RSIAgent | 349 | 2026-09 | 免训练多智能体 RSI 框架 | [打开](代码/02_自进化智能体.md) |
+| Arvid-pku/Godel_Agent | 223 | 2024-10 | Gödel Agent 官方实现 | [打开](代码/01_自参考与自修改框架.md) |
 | 资源合集（awesome-* ×3） | — | 2025-26 | 论文/项目地图 | [打开](代码/03_基础设施安全与资源.md) |
+| demo234kun/rsi-research | 0 | 2026-09 | 自建研读仓：9 项目代码精读 + 最小运行日志 + 金融域适配（URL 勘误） | [打开](代码/03_基础设施安全与资源.md) |
 
 ---
 
